@@ -10,6 +10,8 @@ repositories {
 }
 
 dependencies {
+    implementation("org.reflections:reflections:0.10.2")
+    implementation("org.jetbrains.kotlin:kotlin-reflect:2.3.21")
     testImplementation(kotlin("test"))
     testImplementation("org.assertj:assertj-core:3.27.7")
 }
